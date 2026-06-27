@@ -7,6 +7,7 @@ print(os.path.exists('directories.py'))
 
 # absolute path: The absolute path of a file/directory.
 # relative path: The relative path mostly contains one or two parient directory.
+# relative path: A portion of a path to show where the resource is located in relation to the current working directory.
 
 # There are two modules which can be used 'os' and 'pathlib'. The different is os is string bassed and pathlib class based.
 
