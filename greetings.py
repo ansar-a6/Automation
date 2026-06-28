@@ -17,10 +17,13 @@ def name_chk(file_name):
             name = str(input('Please enter your name: '))
             file.write(name)
         return name
+def main():
+    name = name_chk('name.txt')
+    greeting(str(name))
+    return
 
-name = name_chk('name.txt')
-greeting(name)
-
+if __name__ == '__main__':
+    main()
 
 # shebands tell the os to run this script through python3.
 # chmod +x fileName will save file as executable file.
