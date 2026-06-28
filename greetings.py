@@ -8,18 +8,18 @@ def greeting(name):
     print('This code was executed by by ./greetings.py command')
 
 def name_chk(file_name):
+    na = ''
     if os.path.exists(file_name):
-        name = ''
         with open(file_name) as file:
-            name = file.readline()
+            na = file.readline().strip()
     else:
         with open(file_name, 'w') as file:
-            name = str(input('Please enter your name: '))
-            file.write(name)
-        return name
+            na = str(input('Please enter your name: '))
+            file.write(na)
+    return str(na)
 def main():
     name = name_chk('name.txt')
-    greeting(str(name))
+    greeting(name)
     return
 
 if __name__ == '__main__':
