@@ -1,1 +1,0 @@
-# Python regex cheet sheet
