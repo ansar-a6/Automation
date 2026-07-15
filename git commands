@@ -4,4 +4,8 @@ git config user.email 'youremail'
 git config --global user.name 'yourname' #for global use
 git clone 'link'
 git fetch
-fit commit -m 'message'
+git commit -m 'message'
+
+git commit -m 'heading' -m 'body'
+git commit -m 'title' -m 'body'
+git commit -m 'heading' -m 'body' -m 'ShorExplain'
