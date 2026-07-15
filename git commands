@@ -1,7 +1,0 @@
-git config user.name 'yourname' #for local folders
-git config user.email 'youremail'
-
-git config --global user.name 'yourname' #for global use
-git clone 'link'
-git fetch
-fit commit -m 'message'
