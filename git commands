@@ -9,3 +9,8 @@ git commit -m 'message'
 git commit -m 'heading' -m 'body'
 git commit -m 'title' -m 'body'
 git commit -m 'heading' -m 'body' -m 'ShorExplain'
+
+# git commit -m 'heading' -m 'body' is only work in cli (terminal), it cannot be used in gui code editer like vs code extensions.
+
+git commit -a -m 'message'
+git commit -a -m 'heading' -m 'body'
