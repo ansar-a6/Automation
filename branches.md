@@ -28,3 +28,5 @@ Think of your project as a main notebook (often named `main` or `master`) contai
 | `git checkout -b <new-branch>` | Creates a new branch and switches to it in a single step. |
 | `git merge <branch>` | Merges changes from the specified branch into your current active branch. |
 | `git merge --abort` | Aborts the current merge process and restores the pre-merge state (used during conflict resolution). |
+| `git log --graph` | prints an ASCII graph of the commit and merge history. |
+| `git log --oneline` | prints each commit on a single line. |
