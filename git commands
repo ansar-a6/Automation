@@ -14,3 +14,9 @@ git commit -m 'heading' -m 'body' -m 'ShorExplain'
 
 git commit -a -m 'message'
 git commit -a -m 'heading' -m 'body'
+
+git log -p -2
+git log -p
+
+git revert HEAD // for revert the commit to previous second last commit
+git revert <id> // to rever to specific commit id
